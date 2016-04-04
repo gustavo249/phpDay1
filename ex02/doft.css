@@ -1,0 +1,99 @@
+
+body {
+    background-color: #404040;
+}
+
+#titleImg {
+    margin: 10px;
+    width: 700px;
+}
+
+#heading {
+    position: relative;
+    border-radius: 15px;
+    background-color: #909090;
+    box-shadow: 10px 10px 5px 2px black;
+    margin: 10px;
+    padding: 15px;
+}
+
+#reload {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+#close {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+#main {
+    clear: both;
+    height: 400em;
+    position: relative;
+}
+
+#leftPane {
+    background-color: #909090;
+    position: relative;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 3px 2px black;
+    float: left;
+    clear: both;
+    height: 25em;
+    width: 7em;
+}
+
+.options {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#oeil {
+    border: solid;
+    border-color: red;
+    border-width: 4px;
+}
+
+#center {
+    float: left;
+    margin: 15px;
+    padding: 5px;
+    background-color: #909090;
+    box-shadow: 10px 10px 3px 2px black;
+}
+
+#right {
+    background-color: #909090;
+    display: inline-block;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 3px 2px black;
+    height: 25em;
+    width: 7em;
+}
+
+#bottom {
+    background-color: limegreen;
+    position: absolute;
+    top:12%;
+    left: 2%;
+    width: 20em;
+    height: 8em;
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+}
